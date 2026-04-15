@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "gerer-stress-quotidien",
+    "title": "Gérer le stress au quotidien : pistes concrètes pour retrouver du calme",
+    "excerpt": "Quelques habitudes simples — respiration, organisation du temps, déconnexion — pour apaiser le mental quand la journée s’emballe.",
+    "image": "/uploads/cms/1776248347913-eebe2c5ad888.jpg",
+    "category": "Bien-être",
+    "date": "8 avril 2026",
+    "publishedAt": "2026-04-08",
+    "author": "Équipe CRIPS",
+    "authorAvatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=120&h=120&fit=crop",
+    "content": ""
+  },
+  {
+    "slug": "therapie-premiere-seance",
+    "title": "La première séance chez le psychologue : à quoi s’attendre ?",
+    "excerpt": "Découvrir le déroulement d’un premier entretien pour lever les appréhensions et poser les bases d’un accompagnement en confiance.",
+    "image": "https://images.pexels.com/photos/6129507/pexels-photo-6129507.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Consultation",
+    "date": "2 avril 2026",
+    "publishedAt": "2026-04-02",
+    "author": "Équipe CRIPS",
+    "authorAvatar": "https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=120&h=120&fit=crop",
+    "content": ""
+  },
+  {
+    "slug": "sommeil-sante-mentale",
+    "title": "Sommeil et santé mentale : pourquoi la nuit compte autant que le jour",
+    "excerpt": "Le lien entre qualité du sommeil, humeur et capacité à faire face au stress, et des repères pour de meilleures nuits.",
+    "image": "https://images.pexels.com/photos/3771089/pexels-photo-3771089.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Santé",
+    "date": "28 mars 2026",
+    "publishedAt": "2026-03-28",
+    "author": "Équipe CRIPS",
+    "authorAvatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=120&h=120&fit=crop",
+    "content": ""
+  },
+  {
+    "slug": "couple-communication",
+    "title": "Couple : retrouver une communication qui apaise plutôt qu’elle n’envenime",
+    "excerpt": "Écoute active, besoins exprimés sans accuser, et petits rituels pour recréer du lien au quotidien.",
+    "image": "https://images.pexels.com/photos/4099237/pexels-photo-4099237.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Thérapie de couple",
+    "date": "20 mars 2026",
+    "publishedAt": "2026-03-20",
+    "author": "Équipe CRIPS",
+    "authorAvatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=120&h=120&fit=crop",
+    "content": ""
+  },
+  {
+    "slug": "adolescents-emotions",
+    "title": "Adolescents et émotions fortes : accompagner sans minimiser",
+    "excerpt": "Comprendre les enjeux de cette période et comment offrir un cadre bienveillant tout en respectant l’autonomie des jeunes.",
+    "image": "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Jeunesse",
+    "date": "12 mars 2026",
+    "publishedAt": "2026-03-12",
+    "author": "Équipe CRIPS",
+    "authorAvatar": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=120&h=120&fit=crop",
+    "content": ""
+  },
+  {
+    "slug": "pleine-conscience-debuter",
+    "title": "Pleine conscience : par où commencer quand on n’a jamais médité ?",
+    "excerpt": "Des exercices courts, sans matériel, pour ancrer l’attention au présent et réduire la rumination.",
+    "image": "https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "category": "Ressources",
+    "date": "5 mars 2026",
+    "publishedAt": "2026-03-05",
+    "author": "Équipe CRIPS",
+    "authorAvatar": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=120&h=120&fit=crop",
+    "content": ""
+  }
+]
