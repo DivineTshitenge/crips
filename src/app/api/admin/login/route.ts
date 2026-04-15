@@ -30,8 +30,17 @@ export async function POST(request: Request) {
       password,
     });
     if (error || !data.user) {
+      const code = error?.code ?? "";
+      const msg =
+        code === "email_not_confirmed"
+          ? "Email non confirmé. Confirmez votre adresse dans Supabase Auth."
+          : code === "invalid_credentials"
+            ? "Email ou mot de passe Supabase invalide."
+            : error?.message
+              ? `Connexion Supabase refusée : ${error.message}`
+              : "Identifiants Supabase invalides.";
       return NextResponse.json(
-        { error: "Identifiants Supabase invalides." },
+        { error: msg },
         { status: 401 }
       );
     }
