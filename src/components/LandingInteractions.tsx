@@ -383,8 +383,8 @@ export default function LandingInteractions() {
 
       if (visible) {
         servicesTypeItems.forEach((item, idx) => {
-          item.style.transition = "opacity 0.6s ease, transform 0.6s ease";
-          item.style.transitionDelay = `${idx * 0.12}s`;
+          item.style.transition = "opacity 0.95s ease, transform 0.95s ease";
+          item.style.transitionDelay = `${idx * 0.2}s`;
           // Déclenche après le changement de transition pour garantir l'effet.
           window.requestAnimationFrame(() => {
             item.style.opacity = "1";
