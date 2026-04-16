@@ -85,29 +85,53 @@ export default function Home() {
       <SiteNavbar />
 
       {/* Hero */}
-      <section className="hero" id="home">
-        <div className="hero-background">
-          <div className="hero-image-overlay" />
-        </div>
-        <div className="hero-shape hero-shape-left" aria-hidden="true" />
-        <div className="hero-shape hero-shape-right" aria-hidden="true" />
+      <section className="hero hero-modern" id="home">
         <div className="container">
-          <div className="hero-content-wrapper">
-            <div className="hero-tags">
-              <span className="hero-tag">Gagnez en clarté</span>
-              <span className="hero-tag">Gérer le stress</span>
-            </div>
-            <h1 className="hero-title">
-              Un accompagnement psychologique de qualité centré sur vous.
-            </h1>
-            <p className="hero-description">
-              Reprenez le contrôle de votre bien-être et avancez avec plus de
-              clarté, d&apos;équilibre et de sérénité au quotidien.
-            </p>
-            <div className="hero-cta-group">
-              <a href="#contact" className="btn btn-hero-cta">
-                Contacter un psy
+          <div className="hero-modern-shell">
+            <div className="hero-modern-left">
+              <h1 className="hero-modern-title hero-modern-title-slide">
+                Un accompagnement
+                <br />
+                psychologique de qualité centré sur vous.
+              </h1>
+              <p className="hero-modern-subtext hero-modern-subtext-rise">
+                Nous vous aidons à retrouver équilibre, sérénité et clarté grâce
+                à une prise en charge humaine et professionnelle.
+              </p>
+              <a href="#contact" className="hero-modern-service-btn">
+                Réservez une séance
               </a>
+              <div className="hero-modern-highlight hero-modern-highlight-slide">
+                <span className="hero-modern-highlight-icon" aria-hidden="true">
+                  <ShieldCheck size={18} strokeWidth={2.2} />
+                </span>
+                <div>
+                  <h3>Psychologues qualifiés &amp; approche moderne</h3>
+                  <p>
+                    Notre équipe utilise des méthodes et outils cliniques adaptés
+                    pour un accompagnement précis et bienveillant.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="hero-modern-right" aria-hidden="true">
+              <div className="hero-modern-slides">
+                <img
+                  src="/uploads/cms/1776337498813-8d86b8f767a1.jpeg"
+                  alt="Accompagnement bienveillant"
+                  className="hero-modern-image hero-modern-slide hero-modern-slide-1"
+                />
+                <img
+                  src="/uploads/cms/1776337452014-912e2e57e3ed.jpeg"
+                  alt="Consultation psychologique"
+                  className="hero-modern-image hero-modern-slide hero-modern-slide-2"
+                />
+                <img
+                  src="/uploads/cms/1776337442752-29fcf3a93623.jpeg"
+                  alt="Prise en charge humaine"
+                  className="hero-modern-image hero-modern-slide hero-modern-slide-3"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -127,7 +151,9 @@ export default function Home() {
             <article className="stats-card-gradient fade-in">
               <div className="stats-icon-circle">✚</div>
               <h3>Excellence dans l&apos;accompagnement</h3>
-              <a href="#contact">Réserver un appel</a>
+              <a href="#contact" className="cta-3d-anim">
+                Réserver un appel
+              </a>
             </article>
 
             <article className="stats-card-image fade-in" aria-hidden="true">
@@ -186,7 +212,7 @@ export default function Home() {
             </span>
           </h2>
           <div className="reasons-flow">
-            <article className="reason-flow-item reason-flow-left fade-in">
+            <article className="reason-flow-item reason-flow-left mission-slide-left">
               <div className="reason-flow-icon">
                 <UserRoundCheck size={22} />
               </div>
@@ -196,7 +222,7 @@ export default function Home() {
                 diagnostic et la prise en charge des troubles psychologiques.
               </p>
             </article>
-            <article className="reason-flow-item reason-flow-right fade-in">
+            <article className="reason-flow-item reason-flow-right mission-slide-right">
               <div className="reason-flow-icon">
                 <ShieldCheck size={22} />
               </div>
@@ -207,7 +233,7 @@ export default function Home() {
                 interventions thérapeutiques adaptées.
               </p>
             </article>
-            <article className="reason-flow-item reason-flow-left fade-in">
+            <article className="reason-flow-item reason-flow-left mission-slide-left">
               <div className="reason-flow-icon">
                 <HeartHandshake size={22} />
               </div>
@@ -218,7 +244,7 @@ export default function Home() {
                 recherche.
               </p>
             </article>
-            <article className="reason-flow-item reason-flow-right fade-in">
+            <article className="reason-flow-item reason-flow-right mission-slide-right">
               <div className="reason-flow-icon">
                 <Sparkles size={22} />
               </div>
@@ -229,7 +255,7 @@ export default function Home() {
                 évaluation ou une intervention spécialisée.
               </p>
             </article>
-            <article className="reason-flow-item reason-flow-left fade-in">
+            <article className="reason-flow-item reason-flow-left mission-slide-left">
               <div className="reason-flow-icon">
                 <Clock3 size={22} />
               </div>
@@ -256,27 +282,27 @@ export default function Home() {
                 besoins cliniques, scolaires, familiaux et institutionnels.
               </p>
               <ul className="services-highlight-list">
-                <li>
+                <li className="services-type-item">
                   <Check size={18} />
                   <span>Consultation individuelle</span>
                 </li>
-                <li>
+                <li className="services-type-item">
                   <Check size={18} />
                   <span>Thérapie de couple</span>
                 </li>
-                <li>
+                <li className="services-type-item">
                   <Check size={18} />
                   <span>Évaluation psychologique</span>
                 </li>
-                <li>
+                <li className="services-type-item">
                   <Check size={18} />
                   <span>Thérapie familiale</span>
                 </li>
-                <li>
+                <li className="services-type-item">
                   <Check size={18} />
                   <span>Attestation psychologique</span>
                 </li>
-                <li>
+                <li className="services-type-item">
                   <Check size={18} />
                   <span>Refus scolaire et difficulté d&apos;apprentissage</span>
                 </li>
@@ -384,41 +410,41 @@ export default function Home() {
       {/* Values */}
       <section className="values-section">
         <div className="container">
-          <div className="values-flow fade-in">
-            <h2 className="values-flow-title">Autonomiser votre parcours de santé mentale</h2>
-            <p className="values-flow-subtitle">En trois étapes simples.</p>
+          <div className="values-flow">
+            <h2 className="values-flow-title fade-in">Autonomiser votre parcours de santé mentale</h2>
+            <p className="values-flow-subtitle fade-in">En trois étapes simples.</p>
             <div className="values-steps">
-              <article className="values-step">
-                <span className="values-step-badge">Étape 01</span>
+              <article className="values-step values-step-1">
+                <span className="values-step-badge fade-in">Étape 01</span>
                 <div className="values-step-icon">
                   <ClipboardList size={58} strokeWidth={1.8} />
                 </div>
-                <h3>Dites-nous ce dont vous avez besoin</h3>
-                <p>
+                <h3 className="fade-in">Dites-nous ce dont vous avez besoin</h3>
+                <p className="fade-in">
                   Partagez vos préoccupations et nous vous orientons vers le
                   thérapeute adapté à votre situation.
                 </p>
               </article>
 
-              <article className="values-step">
-                <span className="values-step-badge">Étape 02</span>
+              <article className="values-step values-step-2">
+                <span className="values-step-badge fade-in">Étape 02</span>
                 <div className="values-step-icon">
                   <AlarmClock size={58} strokeWidth={1.8} />
                 </div>
-                <h3>Choisissez le créneau idéal</h3>
-                <p>
+                <h3 className="fade-in">Choisissez le créneau idéal</h3>
+                <p className="fade-in">
                   Consultez les disponibilités de nos spécialistes et planifiez
                   votre séance en présentiel ou en ligne.
                 </p>
               </article>
 
-              <article className="values-step">
-                <span className="values-step-badge">Étape 03</span>
+              <article className="values-step values-step-3">
+                <span className="values-step-badge fade-in">Étape 03</span>
                 <div className="values-step-icon">
                   <HandHeart size={58} strokeWidth={1.8} />
                 </div>
-                <h3>Recevez des soins sans stress</h3>
-                <p>
+                <h3 className="fade-in">Recevez des soins sans stress</h3>
+                <p className="fade-in">
                   Bénéficiez d&apos;un accompagnement bienveillant, confidentiel et
                   progressif vers un meilleur équilibre émotionnel.
                 </p>
@@ -598,17 +624,17 @@ export default function Home() {
       {/* Team */}
       <section className="team-section" id="team">
         <div className="container">
-          <h2 className="section-title fade-in">Notre équipe</h2>
+          <h2 className="section-title fade-in">Votre psychologue</h2>
           <p className="section-subtitle fade-in">
-            Vous pouvez personnaliser le ton en fonction de l&apos;identité de
-            marque du cabinet - qu&apos;il soit chaleureux et personnel,
-            professionnel ou clinique.
+            Une expertise clinique engagée au service de votre bien-être mental,
+            avec un accompagnement humain, confidentiel et adapté à chaque
+            situation.
           </p>
           <div className="team-slider fade-in">
             <article className="team-member-panel">
               <img
-                src="https://images.pexels.com/photos/6129507/pexels-photo-6129507.jpeg"
-                alt="Dr. James Carter"
+                src="/uploads/cms/1776338378846-053f2b0c2264.jpeg"
+                alt="Psychologue NGOMBA MAKABU BÉNÉDICTE"
                 className="team-member-photo"
               />
               <div className="team-member-content">
@@ -629,6 +655,81 @@ export default function Home() {
                 </div>
               </div>
             </article>
+          </div>
+        </div>
+      </section>
+
+      {/* Vente de livres */}
+      <section className="books-section" id="livres">
+        <div className="container">
+          <div className="books-header fade-in">
+            <p className="books-kicker">Librairie CRIPS</p>
+            <h2 className="section-title">Nos livres recommandés</h2>
+            <p className="books-intro">
+              Découvrez une sélection de livres pour approfondir la santé mentale,
+              mieux comprendre les émotions et progresser au quotidien.
+            </p>
+          </div>
+
+          <div className="books-3d-wrap fade-in">
+            <div className="books-3d-stage" aria-label="Carrousel 3D des livres CRIPS">
+              <div className="books-3d-track">
+                <article className="book-3d-card" style={{ ["--i" as string]: 0 }}>
+                  <img
+                    src="https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg"
+                    alt="Livre sur la gestion émotionnelle"
+                  />
+                  <div className="book-3d-caption">
+                    Gestion émotionnelle
+                    <a href="#contact" className="book-3d-buy">Acheter</a>
+                  </div>
+                </article>
+
+                <article className="book-3d-card" style={{ ["--i" as string]: 1 }}>
+                  <img
+                    src="https://images.pexels.com/photos/3747486/pexels-photo-3747486.jpeg"
+                    alt="Livre sur les relations de couple"
+                  />
+                  <div className="book-3d-caption">
+                    Couple et communication
+                    <a href="#contact" className="book-3d-buy">Acheter</a>
+                  </div>
+                </article>
+
+                <article className="book-3d-card" style={{ ["--i" as string]: 2 }}>
+                  <img
+                    src="https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg"
+                    alt="Livre de développement personnel"
+                  />
+                  <div className="book-3d-caption">
+                    Développement personnel
+                    <a href="#contact" className="book-3d-buy">Acheter</a>
+                  </div>
+                </article>
+
+                <article className="book-3d-card" style={{ ["--i" as string]: 3 }}>
+                  <img
+                    src="https://images.pexels.com/photos/694740/pexels-photo-694740.jpeg"
+                    alt="Livre sur la résilience"
+                  />
+                  <div className="book-3d-caption">
+                    Résilience
+                    <a href="#contact" className="book-3d-buy">Acheter</a>
+                  </div>
+                </article>
+
+                <article className="book-3d-card" style={{ ["--i" as string]: 4 }}>
+                  <img
+                    src="https://images.pexels.com/photos/46274/pexels-book-yellowed-literature-46274.jpeg"
+                    alt="Livre de psychologie clinique"
+                  />
+                  <div className="book-3d-caption">
+                    Psychologie clinique
+                    <a href="#contact" className="book-3d-buy">Acheter</a>
+                  </div>
+                </article>
+              </div>
+            </div>
           </div>
         </div>
       </section>
